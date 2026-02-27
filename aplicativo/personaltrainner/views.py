@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def abrir_treino(request):
+    return render(request, 'personaltrainner/index.html')

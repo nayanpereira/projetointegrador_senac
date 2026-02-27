@@ -1,3 +1,5 @@
 from django.shortcuts import render
-
-# Create your views here.
+# função para renderizar o questionário
+def abrir_questionario(request):
+    return render(request,'questionario/index.html')
+    

@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+# O nome deve ser exatamente abrir_nutricionistas
+def abrir_nutricionistas(request):
+    return render(request, 'nutricionistas/index.html')

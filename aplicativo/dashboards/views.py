@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def abrir_dashboards(request):
+    return render(request, 'dashboards/index.html')
